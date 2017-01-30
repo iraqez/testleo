@@ -2,6 +2,8 @@
 import os
 import sys
 
+sys.path.append('/home/iraqez/PycharmProjects/testleo/src/django-leonardo')
+
 if __name__ == "__main__":
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "leonardo.settings")
 
